@@ -5,7 +5,8 @@ public enum Periodo {
 	MANHA("Manhã"),
 	TARDE("Tarde"),
 	NOITE("Noite"),
-	SABADO("Sábado");
+	SABADO("Sábado"),
+	ONLINE("On-line");
 	
 
 	
@@ -18,5 +19,8 @@ public enum Periodo {
 	public String getDescricao() {
 		return descricao;
 	}
+
+	
+
 
 }
